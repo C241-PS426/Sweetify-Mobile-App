@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sweetify" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:fontFamily">@font/poppins_regular</item>
+
+        <item name="colorPrimary">@color/pink_500</item>
+        <item name="colorOnPrimary">@color/pink_50</item>
+        <item name="colorPrimaryContainer">@color/pink_100</item>
+        <item name="colorOnPrimaryContainer">@color/pink_700</item>
+        <item name="colorSecondary">@color/pink_300</item>
+        <item name="colorOnSecondary">@color/pink_50</item>
+        <item name="colorSecondaryContainer">@color/pink_200</item>
+        <item name="colorOnSecondaryContainer">@color/pink_800</item>
+        <item name="colorTertiary">@color/pink_400</item>
+        <item name="colorOnTertiary">@color/pink_50</item>
+        <item name="colorTertiaryContainer">@color/pink_300</item>
+        <item name="colorOnTertiaryContainer">@color/pink_900</item>
+        <item name="colorError">@color/pink_600</item>
+        <item name="colorOnError">@color/pink_50</item>
+        <item name="colorErrorContainer">@color/pink_100</item>
+        <item name="colorOnErrorContainer">@color/pink_950</item>
+        <item name="colorBackgroundFloating">@color/pink_50</item>
+        <item name="colorOnBackground">@color/pink_900</item>
+        <item name="colorSurface">@color/pink_50</item>
+        <item name="colorOnSurface">@color/pink_900</item>
+        <item name="colorSurfaceVariant">@color/pink_100</item>
+        <item name="colorOnSurfaceVariant">@color/pink_700</item>
+        <item name="colorOutline">@color/pink_400</item>
+        <item name="colorOnSurfaceInverse">@color/pink_100</item>
+        <item name="colorSurfaceInverse">@color/pink_900</item>
+        <item name="colorPrimaryInverse">@color/pink_300</item>
+
+
+    </style>
+
+    <style name="Theme.Sweetify" parent="Base.Theme.Sweetify" />
+
+    <style name="background">
+        <item name="android:background">@color/pink_50</item>
+    </style>
+
+    <style name="TransparentDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="RoundedFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="shapeAppearance">@style/RoundedCorners</item>
+    </style>
+
+    <style name="RoundedCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="viewColor950">
+        <item name="android:textColor">@color/pink_950</item>
+        <item name="tint">@color/pink_950</item>
+    </style>
+
+    <style name="viewColor950wBg">
+        <item name="android:textColor">@color/pink_950</item>
+        <item name="tint">@color/pink_950</item>
+        <item name="android:background">@drawable/costum_bg</item>
+    </style>
+
+    <style name="viewColor950topBg">
+        <item name="android:textColor">@color/pink_950</item>
+        <item name="tint">@color/pink_950</item>
+    </style>
+
+    <style name="viewColor50">
+        <item name="android:textColor">@color/pink_50</item>
+        <item name="tint">@color/pink_50</item>
+    </style>
+
+    <style name="viewColor400">
+        <item name="android:textColor">@color/pink_50</item>
+        <item name="tint">@color/pink_50</item>
+    </style>
+
+    <style name="buttonColor400">
+        <item name="backgroundTint">@color/pink_400</item>
+        <item name="android:textColor">@color/pink_50</item>
+    </style>
+
+    <style name="buttonColor400.2">
+        <item name="backgroundTint">@color/pink_400</item>
+        <item name="android:textColor">@color/pink_50</item>
+    </style>
+
+    <style name="buttonColor100">
+        <item name="backgroundTint">@color/pink_100</item>
+        <item name="android:textColor">@color/pink_950</item>
+        <item name="drawableTint">@color/pink_950</item>
+    </style>
+
+    <style name="costumBgTheme">
+        <item name="android:background">@drawable/costum_bg</item>
+    </style>
+
+    <style name="costumBgTheme2">
+        <item name="android:background">@drawable/costum_bg5</item>
+    </style>
+
+    <style name="costumBgTheme3">
+        <item name="android:background">@drawable/costum_bg4</item>
+    </style>
+
+    <style name="costumBgTheme4">
+        <item name="android:background">@drawable/costum_bg6</item>
+    </style>
+
+    <style name="viewColor50topBg">
+        <item name="android:textColor">@color/pink_50</item>
+        <item name="tint">@color/pink_50</item>
+    </style>
+
+    <style name="bottomNav">
+        <item name="android:background">@color/pink_100</item>
+        <item name="itemIconTint">@color/pink_400</item>
+        <item name="itemTextColor">@color/pink_400</item>
+    </style>
+
+    <style name="settingStyle">
+        <item name="android:background">@drawable/costum_bg3</item>
+    </style>
+
+    <style name="switchStyle">
+        <item name="trackTint">@color/pink_400</item>
+        <item name="thumbTint">@color/pink_950</item>
+    </style>
+
+    <style name="searchStyle">
+        <item name="android:backgroundTint">@color/pink_50</item>
+    </style>
+
+    <style name="scanStyle">
+        <item name="android:backgroundTint">@color/pink_50</item>
+        <item name="tint">@color/pink_300</item>
+    </style>
+</resources>
